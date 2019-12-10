@@ -1,5 +1,7 @@
 HOW TO RUN:
 
+NB: Please download and install the backend: https://github.com/jarred1111/mortgage-calculation-back-end.git
+
 Download the project and unzip it. 
 Open a terminal at the project location, run npm install.
 Then run npm start.
