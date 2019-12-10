@@ -1,0 +1,38 @@
+table#t02 tr:nth-child(even) {
+  background-color: #eee;
+  border: 0px;
+}
+table#t02 tr:nth-child(odd) {
+  background-color: #fff;
+  border: 0px;
+}
+table#t02 th {
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+#header {
+  text-align: center;
+  color: black;
+}
+
+table#t02 td {
+  border: 0.1px whitesmoke solid;
+}
+
+table#t02 {
+  width: 1000px;
+  overflow: scroll;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#containerDiv {
+  width: 100%;
+  height: auto
+}
+
+#tableDiv {
+  margin: 0 auto;
+}

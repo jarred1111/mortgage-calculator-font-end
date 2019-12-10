@@ -1,0 +1,130 @@
+#inputDiv {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.inputFeild {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+  font-family: arial;
+	font-size: 14px;
+	color: black;
+	text-align:center;
+}
+
+#labelText {
+  color: black
+}
+
+#labelTextAmount {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#Message {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#chartDiv {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#theResLeft {
+  padding-top: 100px;
+  float: left;
+  width: 50%;
+  height: 400px;
+  color: black
+}
+
+#resHeading {
+  color: black
+}
+
+#theResRight {
+  padding-top: 100px;
+  float: left;
+  width: 50%;
+  height: 400px;
+  color: black
+}
+
+.submitButton {
+	background-color: rgb(0, 230, 0, 0.7);
+	color: white;
+	width: 300px;
+	height: 30px;
+	decoration: none;
+	outline:none;
+	border: none;
+	border-radius: 5px;
+	font-family: arial;
+  font-size: 16px;
+  margin-top:15px;
+}
+
+#arrow-up {
+  background-color: rgb(58, 156, 248);
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 1200px;
+  z-index: 1;
+  margin-top: 80px;
+}
+
+#arrow-up:after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 90px;
+  position: absolute;
+  top: -4%;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
+  background-color: rgb(58, 156, 248);
+  z-index: 2;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+  border: 0px;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+  border: 0px;
+}
+table#t01 th {
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+table#t01 td {
+  border: 0.1px whitesmoke solid;
+}
+
+table#t01 {
+  width: 545px;
+  overflow: scroll;
+  border-collapse: collapse;
+}
+
+#tableContainer {
+  width: 560px;
+  height: 400px;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+}
